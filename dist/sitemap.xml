@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/blog.html</loc>
-    <lastmod>2016-06-24T21:17:26.249Z</lastmod>
+    <lastmod>2016-06-24T21:43:37.079Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/index.html</loc>
-    <lastmod>2016-06-24T21:17:26.250Z</lastmod>
+    <lastmod>2016-06-24T21:43:37.080Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
