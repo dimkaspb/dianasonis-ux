@@ -1,0 +1,13 @@
+---
+title: Portfolio
+menu: Work
+---
+<div class="work section">
+  <div class="container">
+    <div class="row">
+      {{#each work.items}}
+        {{> portfolio-tile this}}
+      {{/each}}
+    </div><!-- End row -->
+  </div><!--End container -->
+</div><!--End -->

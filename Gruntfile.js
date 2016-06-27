@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         tasks: ['assemble']
       },
       css: {
-        files: ['<%= config.src %>/assets/{css}/*.{css}'],
+        files: ['<%= config.src %>/assets/css/*.css'],
         tasks: ['copy:theme'],
       },
       livereload: {
@@ -43,16 +43,16 @@ module.exports = function(grunt) {
         },
         files: [
           '<%= config.dist %>/{,*/}*.html',
-          '<%= config.dist %>/assets/{,*/}*.css',
-          '<%= config.dist %>/assets/{,*/}*.js',
-          '<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          '<%= config.dist %>/css/{,*/}*.css',
+          '<%= config.dist %>/js/{,*/}*.js',
+          '<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg,ico}'
         ]
       }
     },
 
     connect: {
       options: {
-        port: 9000,
+        port: 8000,
         livereload: 35729,
         // change this to '0.0.0.0' to access the server from outside
         hostname: 'localhost'

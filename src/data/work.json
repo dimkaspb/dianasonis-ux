@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "name": "BuzzTarget",
+            "description": "Hello World!"
+        },
+        {
+            "name": "Waypoint",
+            "description": "Hello World!"
+        },
+        {
+            "name": "Priority Coach",
+            "description": "Hello World!"
+        },
+        {
+            "name": "BuzzTarget",
+            "description": "Hello World!"
+        },
+        {
+            "name": "BuzzTarget",
+            "description": "Hello World!"
+        },
+        {
+            "name": "BuzzTarget",
+            "description": "Hello World!"
+        }
+    ]
+}
