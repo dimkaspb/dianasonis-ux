@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/blog.html</loc>
-    <lastmod>2016-07-07T03:07:11.177Z</lastmod>
+    <lastmod>2016-07-07T18:51:04.733Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/buzztarget.html</loc>
-    <lastmod>2016-07-07T03:07:11.178Z</lastmod>
+    <lastmod>2016-07-07T18:51:04.734Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/index.html</loc>
-    <lastmod>2016-07-07T03:07:11.178Z</lastmod>
+    <lastmod>2016-07-07T18:51:04.735Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/assemble/test-assemble/dist/work.html</loc>
-    <lastmod>2016-07-07T03:07:11.178Z</lastmod>
+    <lastmod>2016-07-07T18:51:04.735Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
