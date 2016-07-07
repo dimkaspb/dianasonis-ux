@@ -2,7 +2,7 @@
 <html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
-		<title>Portfolio | Diana Sonis UX</title>
+		<title>{{title}} | {{site.title}}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     
@@ -37,58 +37,9 @@
     <!--=== PAGE PRELOADER ===-->
 		<div id="page-loader"><span class="page-loader-gif"></span></div>
     
-    
-<div id="main-nav" class="navbar">
-			<div class="container">
-			
-				<div class="navbar-header">
-				
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-					
-					<!-- ======= LOGO ========-->
-					<a class="navbar-brand" href="#home">DIANA SONIS<br><span>PRODUCT &amp; EXPERIENCE DESIGN</span></a>
-					<!-- <a class="navbar-brand scrollto ir-logo" href="#">JOHN DOE<br><span>UI Designer</span></a> -->
-				
-				</div>
-				
-				<div id="site-nav" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="./work.html">Work</a>
-						</li>
-						<li>
-							<a href="#services">Writing</a>
-						</li>
-						<li>
-							<a href="#about">About</a>
-						</li>
-						<li>
-							<a href="#portfolio">Contact</a>
-						</li>
-					</ul>
-				</div><!--End navbar-collapse -->
-				
-			</div><!--End container -->
-			
-		</div><!--End main-nav -->
-
-    
-<div class="jumbotron">
-  <div class="container">
-    <h1>BuzzTarget</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div><!--End container -->
-</div><!--End -->
-    
-<section class="footer nav navbar-fixed-bottom">
-	<div class="container">
-		<h2>Want to solve problems together? <a href="#">Get in touch</a></h2>
-	</div><!--End container -->
-</section>
+    {{> navbar }}
+    {{> body }}
+    {{> footer }}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

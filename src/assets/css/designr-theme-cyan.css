@@ -66,7 +66,7 @@ h4,
 h5,
 h6{
 	font-family: Lato, sans-serif;
-	color:#8aaad9;
+	color:#333;
 }
 
 h1 {
@@ -145,7 +145,7 @@ a:focus,
 ---Main Color Styles----
 ------------------------*/
 body {
-	color:#999;
+	color:#333;
 	overflow-x:hidden;
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 #main-nav .icon-bar {
-    background:#fff;
+    /*background:#fff;*/
 }
 
 .btn-theme{
@@ -220,7 +220,7 @@ body {
     line-height:30px;
     font-weight:normal;
     height:auto;
-    color:#fff;
+    /*color:#fff;*/
 }
 
 .navbar-brand span {
@@ -234,14 +234,14 @@ body {
 
 #main-nav{
     background:transparent;
-    color:#fff;
+    /*color:#fff;*/
     box-shadow:0 0 0px transparent;
     -webkit-transition:background 0.3s ease-out;
     transition:background 0.3s ease-out;
 }
 
 #main-nav.scrolled{
-    background:#fff;
+    /*background:#fff;*/
     border-bottom:1px solid #ddd;
 }
 
@@ -272,7 +272,7 @@ body {
     line-height:54px;
     font-weight:400;
     background:transparent;
-    color:#fff;
+    /*color:#fff;*/
 }
 
 
@@ -318,8 +318,8 @@ body {
 
 #main-nav .nav a:hover:before,
 #main-nav .nav li.active a:before {
-	color: #fff;
-	text-shadow: 12px 0 #fff, -12px 0 #fff;
+	color: #536177;
+	text-shadow: 12px 0 #536177, -12px 0 #536177;
 }
 
 #main-nav.scrolled .nav a:hover:before,
@@ -341,8 +341,19 @@ body {
 ------------------------*/
 
 .jumbotron {
-    background:transparent;
-    color:#8aaad9;
+    background: #000;
+    color:#fff;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.jumbotron p {
+    line-height: 2em;
 }
 
 header.jumbotron{
@@ -1252,7 +1263,7 @@ header.jumbotron{
 -----Footer Styles-----
 ------------------------*/
 #main-footer {
-    background:#fff;
+    /*background:#fff;*/
     color:#8aaad9;
     padding:30px 0;
 }
@@ -1466,6 +1477,31 @@ header.jumbotron{
 }
 
 /*-----------------------
+------Sections------
+------------------------*/
+.section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.section.has-bgcolor {
+    background-color: #f5f5f5;
+}
+
+.section .title {
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.section.role {
+    padding-top: 0px;
+}
+
+.section p {
+    line-height: 32px;
+}
+
+/*-----------------------
 ------Media Queries------
 ------------------------*/
 
@@ -1520,7 +1556,7 @@ header.jumbotron{
 }
 
 #main-nav{
-    background:#fff;
+    /*background:#fff;*/
     border-bottom:1px solid #ddd;
 }
 
@@ -1660,14 +1696,14 @@ p {
 }
 
 .footer h2 {
-    color: #fff;
+    color: #536177;
     font-size: 24px;
     font-weight: 300;
     text-align: center;
 }
 
 .footer a {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .footer a:hover{
@@ -1739,7 +1775,7 @@ p {
     padding: 80px 0;
 }
 
-/* HOVER */
+/* HOVER EFFECT (https://miketricking.github.io/dist/)*/
 .hovereffect {
   width: 100%;
   height: 100%;

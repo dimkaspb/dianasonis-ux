@@ -49,7 +49,7 @@ $(document).ready(function() {
 		directionNav: false,
 		controlNav: false,
 		direction: "vertical",
-		slideshowSpeed: 2500,
+		slideshowSpeed: 3500,
 		animationSpeed: 500,
 		smoothHeight: false
 	});
@@ -233,23 +233,11 @@ $(document).ready(function() {
 	/*============================================
 	Backstretch Images
 	==============================================*/
-	$.backstretch('assets/header-bg.jpg');
 
-	$('body').append('<img class="preload-image" src="assets/contact-bg.jpg" style="display:none;"/>');
+	/*$.backstretch('assets/img-noise-1900x1200.png');
 
-	$('#about').waypoint(function(direction){
-	
-		if($('.preload-image').length){$('.preload-image').remove();}
-		
-		$('.backstretch').remove();
-	
-		if (direction=='down'){
-			$.backstretch('assets/contact-bg.jpg');
-		}else{
-			$.backstretch('assets/header-bg.jpg');
-		}
-	});
-	
+	$('body').append('<img class="preload-image" src="assets/contact-bg.jpg" style="display:none;"/>');*/
+
 	/*============================================
 	Project Hover mask on IE
 	==============================================*/
